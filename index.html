@@ -121,7 +121,8 @@ BODY {
     var links = webring.getElementsByClassName("webring-link");
     var i = 0;
     while (id && i < links.length) {
-        if (links.item(i++).id == id) break;
+        if (links.item(i).id == id) break;
+        i++;
     }
     switch ((action || "").toLowerCase()) {
         case "prev":
