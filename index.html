@@ -120,6 +120,7 @@ BODY {
     var webring = document.getElementById("webring");
     var links = webring.getElementsByClassName("webring-link");
     var i = 0;
+    var r = 0;
     while (id && i < links.length) {
         if (links.item(i).id == id) break;
         i++;
@@ -142,9 +143,10 @@ BODY {
             return;
         case "rand":
         case "random":
-            window.location = links.item(
-                Math.floor(Math.random() * links.length)
-            ).href;
+            do {
+                r = Math.floor(Math.random() * links.length);
+            } while (id && r == i)
+            window.location = links.item(r).href;
         default:
             /*  Do nothing  */
             return;
