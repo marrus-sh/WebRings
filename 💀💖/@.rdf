@@ -102,9 +102,7 @@
 				<rdfs:label>kibigo</rdfs:label>
 				<name>kibigo!’s web portal</name>
 				<maker>
-					<Person rdf:about="https://go.KIBI.family/About/#me">
-						<name>kibigo!</name>
-					</Person>
+					<Person rdf:about="https://go.KIBI.family/About/#me" foaf:name="kibigo!"/>
 				</maker>
 			</Document>
 		</rdf:_1>
@@ -114,9 +112,7 @@
 				<rdfs:label>u2764</rdfs:label>
 				<name>JOURNAL: \u2764</name>
 				<maker>
-					<Person rdf:about="https://go.KIBI.family/About/#me">
-						<name>❤</name>
-					</Person>
+					<Person rdf:about="https://go.KIBI.family/About/#me" foaf:name="❤"/>
 				</maker>
 			</Document>
 		</rdf:_2>
@@ -126,9 +122,7 @@
 				<rdfs:label>cat</rdfs:label>
 				<name>yr cat</name>
 				<maker>
-					<Person>
-						<name>cat æscling</name>
-					</Person>
+					<Person foaf:name="cat æscling"/>
 				</maker>
 			</Document>
 		</rdf:_3>

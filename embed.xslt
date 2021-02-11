@@ -83,6 +83,10 @@ p{ Margin: Auto }
 								<apply-templates select="foaf:name[1]" mode="lang"/>
 								<apply-templates select="foaf:name[1]/node()"/>
 							</when>
+							<when test="@foaf:name">
+								<apply-templates select="." mode="lang"/>
+								<value-of select="@foaf:name"/>
+							</when>
 							<otherwise>This website</otherwise>
 						</choose>
 				</html:cite>
@@ -115,11 +119,11 @@ p{ Margin: Auto }
 				<html:a>
 					<attribute name="href">
 						<choose>
-							<when test="../preceding-sibling::rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = '']">
-								<value-of select="../preceding-sibling::rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = ''][1]/*/@rdf:about[1]"/>
+							<when test="../following-sibling::rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = '']">
+								<value-of select="../following-sibling::rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = ''][1]/*/@rdf:about[1]"/>
 							</when>
 							<otherwise>
-								<value-of select="../../rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = ''][last()]/*/@rdf:about[1]"/>
+								<value-of select="../../rdf:*[string-length(local-name()) > 1 and starts-with(local-name(), '_') and translate(substring(local-name(), 2, 1), '123456789', '') = '' and translate(substring(local-name(), 3), '0123456789', '') = ''][1]/*/@rdf:about[1]"/>
 							</otherwise>
 						</choose>
 					</attribute>

@@ -135,6 +135,12 @@ u{ Font-Variant-Caps: Small-Caps; Text-Decoration: None }
 								<apply-templates select="foaf:name[1]/node()"/>
 											</html:cite>
 							</when>
+							<when test="@foaf:name">
+											<html:cite property="foaf:name">
+								<apply-templates select="." mode="lang"/>
+								<value-of select="@foaf:name"/>
+											</html:cite>
+							</when>
 							<otherwise>
 								<value-of select="@rdf:about"/>
 							</otherwise>
@@ -155,14 +161,39 @@ u{ Font-Variant-Caps: Small-Caps; Text-Decoration: None }
 								<choose>
 									<when test="@rdf:about">
 										<html:a href="{@rdf:about}" property="foaf:maker" resource="{@rdf:about}">
+										<choose>
+											<when test="foaf:name">
 											<html:u property="foaf:name">
-										<apply-templates select="foaf:name[1]" mode="lang"/>
-										<apply-templates select="foaf:name[1]/node()"/>
+												<apply-templates select="foaf:name[1]" mode="lang"/>
+												<apply-templates select="foaf:name[1]/node()"/>
 											</html:u>
+											</when>
+											<when test="@foaf:name">
+											<html:u property="foaf:name">
+												<apply-templates select="." mode="lang"/>
+												<value-of select="@foaf:name"/>
+											</html:u>
+											</when>
+											<otherwise>
+												<value-of select="@rdf:about"/>
+											</otherwise>
+										</choose>
 										</html:a>
 									</when>
 									<otherwise>
-										<apply-templates select="foaf:name/node()"/>
+										<html:u>
+										<choose>
+											<when test="foaf:name">
+												<apply-templates select="foaf:name[1]" mode="lang"/>
+												<apply-templates select="foaf:name[1]/node()"/>
+											</when>
+											<when test="@foaf:name">
+												<apply-templates select="." mode="lang"/>
+												<value-of select="@foaf:name"/>
+											</when>
+											<otherwise>Anonymous</otherwise>
+										</choose>
+										</html:u>
 									</otherwise>
 								</choose>
 									</html:dd>
