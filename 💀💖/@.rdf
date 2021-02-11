@@ -85,7 +85,7 @@
 		<p>
 			Once you are added to the WebRing, you <em>must</em> place the following <code>&lt;iframe></code> somewhere prominent on your site’s main page (the one being linked to) :—
 		</p>
-		<pre><code>&lt;iframe src="https://go.KIBI.family/WebRings/💀💖/embed/#/YOUR-SITE-ID" sandbox="allow-scripts allow-same-origin allow-top-navigation"/></code></pre>
+		<pre><code>&lt;iframe src="https://go.KIBI.family/WebRings/💀💖/embed/#/YOUR-SITE-ID" sandbox="allow-scripts allow-same-origin allow-top-navigation">&lt;/iframe></code></pre>
 		<p>
 			—: (replacing <code>YOUR-SITE-ID</code> with your own site identifier). 
 			This will produce something like the following :—
