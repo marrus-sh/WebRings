@@ -1,0 +1,124 @@
+<rdf:RDF
+	xml:lang="en"
+	xmlns="http://xmlns.com/foaf/0.1/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+	<rdf:Seq rdf:about=".">
+		<owl:sameAs rdf:resource="https://go.KIBI.family/WebRings/💀💖/#💀💖"/>
+		<name rdf:parseType="Literal"><span lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">The <b>EZINE<i>💀💖</i>EGIRL</b> WebRing</span></name>
+		<rdfs:label>💀💖</rdfs:label>
+		<rdfs:comment rdf:parseType="Literal"><div lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<section id="purpose">
+		<h2>Purpose</h2>
+		<p>This webring aims to collect sites which meet the following criteria :—</p>
+		<ul>
+			<li>
+				<p>
+					<strong>Managed by a human being</strong> (not a corporation) who wants to <strong>form homosocial (same-gender) relationships with girls.</strong> 
+					You do not have to identify <em>as</em> a girl but you do have to identify <em>with</em> girls and have a gender somewhere alongside—rather than against or across from—girldom. 
+					And you have to be okay with belonging to something called <cite>The EZINE💀💖EGIRL WebRing</cite>.
+				</p>
+				<p>
+					The purpose of this webring is to <strong>facilitate developing the sorts of social networks / support structures which girls like to make</strong>, so the more of a huge lesbo you are (in theory if not in practice) the more successful you are going to be. 
+					I <em>do not give a fuck</em> where you position yourself with regards to such dichotomies as “masculinity” / “femininity”, “butch” / “femme”, “top” / “bottom”, <em>etc.</em>
+				</p>
+				<p>
+					Webpages managed by multiple people (still not a corporation) are permitted if the <em>majority</em> of them fit the above, and the remainder are fine with those folks taking the spotlight.
+				</p>
+			</li>
+			<li>
+				<p>
+					<strong>Not·for·profit</strong> and <strong>freely‐accessible</strong>. 
+					Links to storefronts or tipjars somewhere on the page is fine, but you need to be able to view the page for free. 
+					<a href="https://creativecommons.org/"><u>Creative Commons</u></a> licensing of content is <em>preferred</em>.
+				</p>
+			</li>
+			<li>
+				<p>
+					<strong>Featuring webpages which are:</strong>
+				</p>
+				<ul>
+					<li>
+						<p>
+							<strong>Handmade:</strong> 
+							Written and styled by hand. 
+							Embedded XSLT or HTML custom elements are fine. 
+							Pages generated from SXML, Market Commons, or similar are acceptable so long as the source file is selfcontained and others can reproduce the process; in this case, you <em>must</em> link to the source file with a <code>&lt;link rel="alternate"></code> tag in the <code>&lt;head></code> of the document.
+						</p>
+					</li>
+					<li>
+						<p>
+							<strong>Selfcontained:</strong> 
+							Content can be downloaded to disk as a single file and viewed without a network connection. 
+							Loading nonessential content from elsewhere is okay so long as you provide fallbacks which are acceptable.
+						</p>
+					</li>
+					<li>
+						<p>
+							<strong>Remixable:</strong> 
+							Source code must be unminified and readable. 
+							Comments explaining aspects of page construction are appreciated.
+						</p>
+					</li>
+				</ul>
+				<p>
+					These pages do not need to be the only pages on a site, but they <strong>must make up a significant, easily discoverable portion.</strong> 
+					For example, a website with a “library” section that meets these requirements is fine, even if that website contains multiple other sections.
+				</p>
+			</li>
+		</ul>
+	</section>
+	<section id="joining">
+		<h2>How To Join</h2>
+		<p>If you have a webpage which you think meets the criteria above, contact <a href="https://go.KIBI.family/About/#me"><u>kibigo!</u></a> with the following information :—</p>
+		<ul>
+			<li>the URL of your website;</li>
+			<li>your website’s name, as you would like it to appear here;</li>
+			<li>an <a href="https://go.kibi.family/Apps/NCName/">NCName</a> which you would like your website to be identified by (this is permanent—so don't use anything which might not survive an identity crisis in 10 years); and</li>
+			<li>your own name(s) and (optionally) URLs.</li>
+		</ul>
+		<p>Be sure to contact her again if any of these details change.</p>
+		<p>
+			Once you are added to the WebRing, you <em>must</em> place the following <code>&lt;iframe></code> somewhere prominent on your site’s main page (the one being linked to) :—
+		</p>
+		<pre><code>&lt;iframe src="https://go.KIBI.family/WebRings/💀💖/embed/#/YOUR-SITE-ID" sandbox="allow-scripts allow-top-navigation"/></code></pre>
+		<p>
+			—: (replacing <code>YOUR-SITE-ID</code> with your own site identifier). 
+			This will produce something like the following :—
+		</p>
+		<iframe src="https://go.KIBI.family/WebRings/💀💖/embed/#/kibigo" sandbox="allow-scripts allow-top-navigation"/>
+		<p>
+			Including this code is necessary so that people traversing the WebRing sequentially can easily continue on their way.
+		</p>
+	</section>
+</div></rdfs:comment>
+		<rdf:_1>
+			<Document rdf:about="https://go.KIBI.family">
+				<owl:sameAs rdf:resource="https://go.KIBI.family/WebRings/💀💖/#kibigo"/>
+				<rdfs:label>kibigo</rdfs:label>
+				<name>kibigo!’s web portal</name>
+				<maker>
+					<Person rdf:about="https://go.KIBI.family/About/#me">
+						<name>kibigo!</name>
+					</Person>
+				</maker>
+			</Document>
+		</rdf:_1>
+		<rdf:_2>
+			<Document rdf:about="https://www.u2764.com">
+				<owl:sameAs rdf:resource="https://go.KIBI.family/WebRings/💀💖/#u2764"/>
+				<rdfs:label>u2764</rdfs:label>
+				<name>JOURNAL: \u2764</name>
+				<maker>
+					<Person rdf:about="https://go.KIBI.family/About/#me">
+						<name>❤</name>
+					</Person>
+				</maker>
+			</Document>
+		</rdf:_2>
+	</rdf:Seq>
+</rdf:RDF>
