@@ -120,5 +120,17 @@
 				</maker>
 			</Document>
 		</rdf:_2>
+		<rdf:_3>
+			<Document rdf:about="https://catsbian.eerie.garden">
+				<owl:sameAs rdf:resource="https://go.KIBI.family/WebRings/💀💖/#cat"/>
+				<rdfs:label>cat</rdfs:label>
+				<name>yr cat</name>
+				<maker>
+					<Person>
+						<name>cat æscling</name>
+					</Person>
+				</maker>
+			</Document>
+		</rdf:_3>
 	</rdf:Seq>
 </rdf:RDF>
